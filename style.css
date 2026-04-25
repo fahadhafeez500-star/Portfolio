@@ -1,0 +1,39 @@
+/* Element selector */
+p {
+    color: darkblue;
+    font-size: 16px;
+}
+
+/* ID selector */
+#main-heading {
+    color: white;
+    background-color: darkgreen;
+    text-align: center;
+}
+
+/* Class selector */
+.section-title {
+    color: darkred;
+}
+
+/* Group selector */
+h1, h2 {
+    font-family: Arial;
+}
+
+/* Image styling */
+img {
+    border: 3px solid black;
+    display: block;
+    margin: 10px auto;
+}
+
+/* Link hover (pseudo-class) */
+a:hover {
+    color: red;
+}
+
+/* Background color */
+body {
+    background-color: rgb(175, 182, 226);
+}
